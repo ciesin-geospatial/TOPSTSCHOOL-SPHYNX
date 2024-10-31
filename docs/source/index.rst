@@ -26,7 +26,7 @@ Science Core Heuristics for Open Science Outcomes in Learning
     - :youtube: https://www.youtube.com/@TOPSTSCHOOL
 
 -------------------------------------------------------------------------------
-Site Under Construction...
+Site Under Construction... |badge-wip|
 -------------------------------------------------------------------------------
 
 .. image:: ./_assets/brands/school-logo-big.png
