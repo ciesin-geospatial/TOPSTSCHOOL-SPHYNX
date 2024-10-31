@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, October 28, 2024
-.. Last updated on: Monday, October 28, 2024
+.. Last updated on: Thursday, October 31, 2024
 
 :orphan:
 
@@ -21,8 +21,8 @@ Science Core Heuristics for Open Science Outcomes in Learning
 
     - :name: TOPSTSCHOOL Development Team
     - :email: TOPSTSCHOOL@gmail.com
+    - :headshot: https://avatars.githubusercontent.com/u/16084170?s=200&v=4
     - :github: https://github.com/ciesin-geospatial
-    - :headshot: ./_assets/team/ciesin.png
     - :youtube: https://www.youtube.com/@TOPSTSCHOOL
 
 -------------------------------------------------------------------------------
