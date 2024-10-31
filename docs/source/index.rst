@@ -9,7 +9,7 @@ Science Core Heuristics for Open Science Outcomes in Learning
 ===============================================================================
 
 .. title-hero::
-    :icon: fa-solid fa-sparkles
+    :icon: fa-solid fa-telescope
     :summary:
         Part of the NASA Transform to Open Science (TOPS) Training initiative.
 
