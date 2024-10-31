@@ -42,4 +42,4 @@ jobs:
         run: |
           python -m pip install -Uq pip -rrequirements-dev.txt
           echo "Checking code for issues..."
-          flake8 "$_" && sphinx-lint "$_"
+          flake8 ${{ env.SOURCEDIR }} && sphinx-lint ${{ env.SOURCEDIR }}
