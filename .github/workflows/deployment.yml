@@ -1,0 +1,73 @@
+# TOPSTSCHOOL Sphinx (Documentation) Deployment Workflow
+# ======================================================
+#
+# Author: Akshay Mestry <xa@mes3.dev>
+# Created on: Sunday, October 27 2024
+# Last updated on: Sunday, October 27 2024
+
+name: deployment
+run-name: Auto-started ${{ github.workflow }} after linting
+
+on:
+  workflow_run:
+    workflows: [linting]
+    types: [completed]
+    branches: [$default-branch]
+
+permissions:
+  contents: write
+
+env:
+  ARTIFACTNAME: topstschool-pages
+  BUILDDIR: docs/build/
+  SOURCEDIR: docs/source
+  PYTHONVERSION: 3.12.1
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871
+        with:
+          fetch-depth: 1
+      - name: Setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHONVERSION }}
+          cache: pip
+      - name: Build pages with Sphinx
+        id: build
+        run: |
+          echo "Clean installing latest version of sphinx and other runtime dependencies..."
+          python -m pip install -Uq pip -rrequirements.txt
+          echo "Building documentation pages..."
+          sphinx-build -EWqa --builder html ${{ env.SOURCEDIR }} ${{ env.BUILDDIR }}
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: ${{ env.ARTIFACTNAME }}
+          path: ${{ env.BUILDDIR }}
+  deploy:
+    name: deploy
+    needs: build
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: canary
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ env.ARTIFACTNAME }}
