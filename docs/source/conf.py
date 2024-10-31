@@ -21,7 +21,6 @@ import subprocess
 import typing as t
 from datetime import datetime as dt
 
-from jupyterlite_sphinx import jupyterlite_sphinx
 from sphinx.application import Sphinx
 
 # -- General configurations ---------------------------------------------------
