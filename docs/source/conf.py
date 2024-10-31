@@ -197,6 +197,3 @@ def topst_jupyterlite_build(app: Sphinx, error: t.Any) -> None:
         os.remove(os.path.join(app.srcdir, ".jupyterlite.doit.db"))
     except FileNotFoundError:
         pass
-
-
-jupyterlite_sphinx.jupyterlite_build = topst_jupyterlite_build
