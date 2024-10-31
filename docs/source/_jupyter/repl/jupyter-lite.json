@@ -1,0 +1,12 @@
+{
+    "jupyter-lite-schema-version": 0,
+    "jupyter-config-data": {
+        "appName": "TOPSTSCHOOL Live Interpreter",
+        "disabledExtensions": [
+            "@jupyterlab/application-extension:logo",
+            "@jupyterlab/drawio-extension",
+            "jupyterlab-kernel-spy",
+            "jupyterlab-tour"
+        ]
+    }
+}
