@@ -4,7 +4,7 @@ TOPSTSCHOOL Sphinx (Documentation) Configuration
 
 Author: Akshay Mestry <xa@mes3.dev>
 Created on: Sunday, October 27 2024
-Last updated on: Thursday, October 31 2024
+Last updated on: Friday, November 01 2024
 
 This file contains the configuration settings for building the TOPSTSCHOOL
 documentation using Sphinx, a popular Python documentation tool. Sphinx
@@ -31,11 +31,10 @@ templates_path: list[str] = ["_templates"]
 
 # -- Miscellaneous ------------------------------------------------------------
 nitpicky: bool = True
-source: t.Final[str] = (
-    "https://github.com/ciesin-geospatial/TOPSTSCHOOL-SPHINX"
-)
-baseurl: t.Final[str] = "https://ciesin-geospatial.github.io"
+locale_dirs: list[str] = ["../locale/"]
+gettext_compact: bool = False
 intersphinx_mapping: dict[str, tuple[str, t.Any]] = {
+    "python": ("https://docs.python.org/3/", None),
     "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
 }
 
@@ -55,19 +54,29 @@ try:
 except Exception:
     last_updated = None
 
-# -- Project information -----------------------------------------------------
-html_coeus_author: t.Final[str] = "TOPSTSCHOOL Development Team"
+# -- Meta information ---------------------------------------------------------
+project: t.Final[str] = "TOPSTSCHOOL"
+author: t.Final[str] = "TOPSTSCHOOL Development Team"
+author_email: t.Final[str] = "TOPSTSCHOOL@gmail.com"
+baseurl: t.Final[str] = "https://ciesin-geospatial.github.io"
+homepage: str = f"{baseurl}/TOPSTSCHOOL-SPHINX/"
+source: t.Final[str] = (
+    "https://github.com/ciesin-geospatial/TOPSTSCHOOL-SPHINX"
+)
+
+# -- Project information ------------------------------------------------------
+html_coeus_author: t.Final[str] = author
 html_coeus_copyright: t.Final[str] = f"{dt.now().year}, {html_coeus_author}."
-html_coeus_email: t.Final[str] = "TOPSTSCHOOL@gmail.com"
+html_coeus_email: t.Final[str] = author_email
 html_coeus_github: str = source
 html_coeus_license: str = f"{source}/blob/main/LICENSE"
 html_coeus_repository: str = source
-html_coeus_title: t.Final[str] = "TOPSTSCHOOL"
+html_coeus_title: t.Final[str] = project
 html_coeus_version: t.Final[str] = "2024.11.30"
 html_coeus_favicon: t.Final[str] = "_static/img/favicon.png"
 html_coeus_logo: t.Final[str] = "_static/img/logo.png"
 html_coeus_hide_index_toctree: bool = True
-html_coeus_homepage: str = f"{baseurl}/TOPSTSCHOOL-SPHINX/"
+html_coeus_homepage: str = homepage
 html_coeus_documentation: str = html_coeus_homepage
 html_coeus_socials: dict[str, str] = {
     "youtube": ["https://www.youtube.com/@TOPSTSCHOOL"]
@@ -84,10 +93,17 @@ html_coeus_theme_options: dict[str, t.Any] = {
         "About Us": {},
     },
 }
-locale_dirs: list[str] = ["../locale/"]
-gettext_compact: bool = False
 
 # -- Options for HTML output --------------------------------------------------
 html_theme: t.Final[str] = "coeus_sphinx_theme"
 html_static_path: list[str] = ["_static"]
-html_context: dict[str, str] = {"feedback_link": source}
+html_context: dict[str, str] = {
+    "feedback_link": source
+    + "/discussions/new?category=thoughts-and-feedbacks"
+}
+
+# -- Options for Open Graph protocol ------------------------------------------
+ogp_site_name: t.Final[str] = project
+ogp_site_url: str = homepage
+ogp_social_cards: dict[str, str] = {"site_url": homepage}
+ogp_enable_meta_description: bool = True
