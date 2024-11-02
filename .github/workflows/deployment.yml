@@ -3,7 +3,7 @@
 #
 # Author: Akshay Mestry <xa@mes3.dev>
 # Created on: Sunday, October 27 2024
-# Last updated on: Thursday, October 31 2024
+# Last updated on: Saturday, November 02 2024
 
 name: deployment
 run-name: Auto-started ${{ github.workflow }} after linting
@@ -47,7 +47,7 @@ jobs:
           echo "Clean installing latest version of sphinx and other runtime dependencies..."
           python -m pip install -Uq pip -rrequirements.txt
           echo "Building documentation pages..."
-          sphinx-build -EWqa --builder html ${{ env.SOURCEDIR }} ${{ env.BUILDDIR }}
+          cd docs && make html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

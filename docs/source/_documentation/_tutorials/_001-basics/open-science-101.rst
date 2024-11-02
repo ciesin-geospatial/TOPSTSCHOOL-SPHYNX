@@ -2,9 +2,6 @@
 .. Created on: Friday, November 01, 2024
 .. Last updated on: Friday, November 01, 2024
 
-:og:title: Open Science 101
-:og:description: How-To guides for all things Open Science.
-
 .. _open-science-101:
 
 ===============================================================================
