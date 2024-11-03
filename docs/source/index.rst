@@ -3,6 +3,8 @@
 .. Last updated on: Friday, November 01, 2024
 
 :orphan:
+:og:title: Science Core Heuristics for Open Science Outcomes in Learning
+:og:description: SCHOOL Homepage
 
 .. _home-page:
 

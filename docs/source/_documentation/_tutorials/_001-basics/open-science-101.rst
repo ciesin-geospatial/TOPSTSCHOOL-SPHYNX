@@ -1,6 +1,9 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Friday, November 01, 2024
-.. Last updated on: Friday, November 01, 2024
+.. Last updated on: Saturday, November 02, 2024
+
+:og:title: Open Science 101
+:og:description: How-To guides for all things Open Science.
 
 .. _open-science-101:
 
@@ -19,7 +22,7 @@ Open Science 101
 
 .. contributors::
     :location: Chicago, IL
-    :timestamp: November 01, 2024
+    :timestamp: November 02, 2024
 
     - :name: Akshay Mestry
     - :email: xa@mes3.dev
@@ -27,6 +30,7 @@ Open Science 101
     - :github: https://github.com/xames3
     - :linkedin: https://linkedin.com/in/xames3
     - :orcid: https://orcid.org/0009-0000-4562-8983
+    - :status: Open Source Maintainer
 
 :term:`Open Science` is a global movement that aims to make scientific
 research more accessible, transparent, and collaborative. At :term:`NASA`,
@@ -82,20 +86,20 @@ degradation to public health crises and social inequalities.
     :class: transparent-border
 
     Venn diagram, created using draw.io [#]_, illustrates the four pillars of
-    Open Science |html-dash| Open Access, Open Research, Open Code, and Open
-    Data. These interconnected principles promote transparency,
-    collaboration, and accessibility in research, fostering a more trustworthy
-    and inclusive scientific community.
+    Open Science |html-dash| :term:`Open Access`, :term:`Open Research`, Open
+    Code, and :term:`Open Data`. These interconnected principles promote
+    :term:`transparency`, collaboration, and accessibility in research,
+    fostering a more trustworthy and inclusive scientific community.
 
-To put things
-simply, Open science is an umbrella term that encompasses various practices
-aimed at making research more **transparent** and **accessible**. It covers
-the entire research lifecycle, from data collection to publishing findings,
-emphasizing openness and collaboration. You already might be doing open science
-unknowningly if you are:
+To put it simply, Open science is an umbrella term that encompasses various
+practices aimed at making research more **transparent** and **accessible**. It
+covers the entire research lifecycle, from data collection to publishing
+findings, emphasizing openness and collaboration. You already might be doing
+open science unknowningly if you are:
 
 - Sharing research protocols openly or documenting code used for data analysis.
-- Publishing in open-access journals or sharing preprints of research articles.
+- Publishing in open-access journals or sharing :term:`preprint` of research
+  articles.
 - Sharing raw datasets and detailed analysis scripts.
 
 -------------------------------------------------------------------------------
@@ -227,6 +231,31 @@ The below video summarizes the importance of Open Science. [#]_
 
 .. youtube-video:: https://www.youtube.com/watch?v=c-bemNZ-IqA
 
+-------------------------------------------------------------------------------
+Summary and Up Next
+-------------------------------------------------------------------------------
+
+By understanding open science, you become a part of a global movement to make
+research more inclusive, efficient, and impactful. Open science is about
+breaking down barriers and working together, across borders and disciplines,
+to create a better, more informed world.
+
+Once you've grasped the importance of open science, you'll be ready to dive
+into the next section, we'll introduce you to the software and platforms that
+can help you implement open science practices efficiently. We'll cover
+everything from setting up necessary accounts to configuring IDEs.
+
+.. grid:: 2 2 2 2
+
+    .. grid-item::
+
+        .. card:: Setting up GitHub, ORCID accounts and more
+            :img-alt: Accounts setup guide
+            :img-background: ../../../_assets/guides/accounts-setup-card.png
+            :link-type: doc
+            :link: accounts-setup
+            :shadow: none
+
 .. rubric:: References
     :heading-level: 2
 
@@ -236,5 +265,10 @@ The below video summarizes the importance of Open Science. [#]_
        stack for building diagramming applications.
 .. [#] A wonderful blog by NASA on `Why Do Open Science?
        <https://science.nasa.gov/open-science/why-do-open-science/>`_
-.. [#] Dr. Rachael Ainsworth's talk on `Research Culture is Broken; Open
+.. [#] Dr. Rachael Ainsworth's TEDx talk on `Research Culture is Broken; Open
        Science can Fix It <https://www.youtube.com/watch?v=c-bemNZ-IqA>`_.
+
+.. toctree::
+    :hidden:
+
+    accounts-setup
