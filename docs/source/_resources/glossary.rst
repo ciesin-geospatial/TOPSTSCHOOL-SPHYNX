@@ -1,6 +1,11 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, October 28, 2024
-.. Last updated on: Thursday, October 31, 2024
+.. Last updated on: Saturday, November 02, 2024
+
+:og:title: Glossary
+:og:description: Quick reference to all the terms related to Open Science.
+
+.. _glossary:
 
 ===============================================================================
 Glossary
@@ -10,34 +15,32 @@ Glossary
     :icon: fa-solid fa-book-open
     :summary:
         A quick reference to all the terms, phrases, and links you will
-        encounter on TOPSTSCHOOL site. This is your one-stop guide to
-        navigating with ease.
+        encounter on our site. This is your one-stop guide to navigating with
+        ease.
 
 .. tags:: open-science-101
 
 .. contributors::
-    :timestamp: October 27, 2024
+    :timestamp: November 02, 2024
+    :location: Chicago, IL
 
     - :name: America Munoz
     - :email: amunoz8@my.nl.edu
-    - :github: https://github.com/america-m
     - :headshot: https://avatars.githubusercontent.com/u/159733163?v=4
+    - :github: https://github.com/america-m
+    - :linkedin: https://www.linkedin.com/in/americamunoz-/
+    - :orcid: https://orcid.org/0009-0006-6163-3807
     - :status: Open Science Team Member
 
     - :name: Dhruvil Prajapati
     - :email: dprajapati@my.nl.edu
-    - :github: https://github.com/dhru-repository
     - :headshot: https://avatars.githubusercontent.com/u/69695749?v=4
-    - :status: Open Science Team Member
-
-    - :name: Akshay Mestry
-    - :email: xa@mes3.dev
-    - :github: https://github.com/xames3/
-    - :headshot: https://avatars.githubusercontent.com/u/90549089?v=4
+    - :github: https://github.com/dhru-repository
+    - :linkedin: https://www.linkedin.com/in/dhruvil-p-239877164/
     - :status: Open Science Team Member
 
 -------------------------------------------------------------------------------
-Terms & Definitions |badge-wip|
+Terms & Definitions
 -------------------------------------------------------------------------------
 
 .. glossary::
@@ -234,3 +237,13 @@ Terms & Definitions |badge-wip|
         interests of a particular community or public group. This approach
         fosters collaboration between researchers and the public, enhancing
         the relevance and impact of research.
+
+    Integrated Development Environment (IDE)
+        An IDE is a software application that provides comprehensive
+        facilities to computer programmers for software development. It
+        typically includes a code editor, a debugger, a build automation tool,
+        and other tools to facilitate coding and debugging. Examples of
+        popular IDEs include
+        `Visual Studio Code <https://code.visualstudio.com/>`_,
+        `PyCharm <https://www.jetbrains.com/pycharm/>`_, and
+        `RStudio <https://posit.co/download/rstudio-desktop/>`_.
