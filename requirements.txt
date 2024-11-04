@@ -1,4 +1,4 @@
-git+https://github.com/xames3/coeus-sphinx-theme.git
+git+https://github.com/xames3/coeus-sphinx-theme.git@main
 sphinx
 sphinx-copybutton
 sphinx-intl
