@@ -1,0 +1,110 @@
+# TOPSTSCHOOL Sphinx (Documentation) Bug Reporting Template
+# =========================================================
+#
+# Author: Akshay Mestry <xa@mes3.dev>
+# Created on: Monday, November 04 2024
+# Last updated on: Monday, November 04 2024
+
+name: Bug report
+description: File a bug report.
+title: '[Bug]: '
+labels: ['bug', 'community', 'high priority']
+projects: ['ciesin-geospatial/2']
+assignees:
+  - 'xames3'
+  - 'jfmartinez4'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this bug report! Your feedback is essential to help us improve. Please follow the template and provide as much detail as possible.
+
+        We truly appreciate you bringing this to our attention. Providing clear and concise details helps us address issues faster. Before you proceed, please ensure you've checked the following:
+        - [x] You've gone through the [open issues](https://github.com/ciesin-geospatial/TOPSTSCHOOL-SPHINX/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) to see if your bug has already been reported.
+        - [x] You've searched [closed issues](https://github.com/ciesin-geospatial/TOPSTSCHOOL-SPHINX/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aclosed) to see if your bug has already been fixed.
+  - type: input
+    id: bug-summary
+    attributes:
+      label: Brief summary
+      description: Please provide a quick, one-sentence description of the bug.
+      placeholder: 'E.g., unable to submit feedback.'
+    validations:
+      required: true
+  - type: textarea
+    id: detailed-description
+    attributes:
+      label: Describe your issue
+      description: Describe the bug in detail. Include any steps necessary to reproduce it and what actually happened.
+      placeholder: I saw...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen?
+      placeholder: |
+        I was expecting...
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: |
+        Which Operating System you were using when the issue occurred?
+      options:
+        - macOS
+        - Linux
+        - Windows
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - I use a different browser
+  - type: textarea
+    id: screenshots_or_videos
+    attributes:
+      label: Screenshots or Videos
+      description: |
+        If applicable, add screenshots or a video to help explain your problem.
+      placeholder: |
+        Drag your video or image files inside of this editor.
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Provide any additional context or information you think would be helpful.
+      placeholder: 'E.g., error logs, related issues, or any recent changes in the environment'
+  - type: dropdown
+    id: impact-level
+    attributes:
+      label: Bug severity
+      description: How severe is this bug?
+      options:
+        - Minor
+        - Major
+        - Critical
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](#). 
+      options:
+        - label: I agree to follow TOPSTSCHOOL Sphinx's Code of Conduct.
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Next Steps
+        Thank you for filling out the report! Once submitted, our team will review your issue and follow up as needed. Your contribution helps us immensely.
+
+        If you have any questions or need to follow up, feel free to comment below your submission.
