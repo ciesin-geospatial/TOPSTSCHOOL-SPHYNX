@@ -149,15 +149,15 @@ GitHub account. All the security settings are accessible using the same steps.
 
     .. image:: ../../../_assets/guides/github-secure-profile.png
         :alt: Navigate to your profile - GitHub
-        :class: transparent-border no-rounded-border
+        :class: transparent-border no-rounded-corners
 
     .. image:: ../../../_assets/guides/github-secure-settings.png
         :alt: Select Settings - GitHub
-        :class: transparent-border no-rounded-border
+        :class: transparent-border no-rounded-corners
 
     .. image:: ../../../_assets/guides/github-secure-password.png
         :alt: Choose Password and authentication - GitHub
-        :class: transparent-border no-rounded-border
+        :class: transparent-border no-rounded-corners
 
 .. tab-set::
 
@@ -304,7 +304,7 @@ cohesive professional identity across platforms.
 .. figure:: ../../../_assets/guides/orcid-github-link.png
     :align: center
     :alt: Link ORCID with GitHub
-    :class: transparent-border no-rounded-border
+    :class: transparent-border no-rounded-corners
 
     ORCID integrated with GitHub account.
 
