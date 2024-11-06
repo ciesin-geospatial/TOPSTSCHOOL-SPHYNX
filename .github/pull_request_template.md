@@ -1,15 +1,5 @@
-<!--
-TOPSTSCHOOL Sphinx (Documentation) Pull Request Template
-========================================================
-
-Author: Akshay Mestry <xa@mes3.dev>
-Created on: Tuesday, November 05 2024
-Last updated on: Tuesday, November 05 2024
--->
-
 Thank you for your contribution!
-To help us understand and review your changes quickly, please complete the checklist and
-provide all relevant details.
+To help us understand and review your changes quickly, please complete the checklist and provide all relevant details.
 
 ## Brief Summary
 **Provide a concise summary of what this PR does:**
@@ -48,7 +38,6 @@ Before submitting, please confirm the following:
 - [ ] I have tested my changes locally and ensured they work as expected.
 
 ### Thank you!
-We deeply value your efforts to contribute. Your PR will be reviewed soon, and we'll
-keep you posted.
+We deeply value your efforts to contribute. Your PR will be reviewed soon, and we'll keep you posted.
 
 If you have any questions or need assistance, feel free to reach out!
