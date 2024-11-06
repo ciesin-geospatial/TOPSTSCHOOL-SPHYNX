@@ -1,12 +1,3 @@
-<!--
-TOPSTSCHOOL Sphinx (Documentation) Pull Request Template
-========================================================
-
-Author: Akshay Mestry <xa@mes3.dev>
-Created on: Tuesday, November 05 2024
-Last updated on: Tuesday, November 05 2024
--->
-
 Thank you for your contribution!
 To help us understand and review your changes quickly, please complete the checklist and
 provide all relevant details.
