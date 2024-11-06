@@ -245,15 +245,24 @@ into the next section, we'll introduce you to the software and platforms that
 can help you implement open science practices efficiently. We'll cover
 everything from setting up necessary accounts to configuring IDEs.
 
-.. grid:: 2 2 2 2
+.. grid:: 3 3 3 3
 
     .. grid-item::
 
         .. card:: Setting up GitHub, ORCID accounts and more
             :img-alt: Accounts setup guide
-            :img-background: ../../../_assets/guides/accounts-setup-card.png
+            :img-background: ../../../_assets/guides/must-have-accounts.png
             :link-type: doc
-            :link: accounts-setup
+            :link: must-have-accounts
+            :shadow: none
+
+    .. grid-item::
+
+        .. card:: Tools to empower your Open Science workflows
+            :img-alt: Tools setup guide
+            :img-background: ../../../_assets/guides/tools-technologies.png
+            :link-type: doc
+            :link: tools-technologies
             :shadow: none
 
 .. rubric:: References
@@ -271,4 +280,5 @@ everything from setting up necessary accounts to configuring IDEs.
 .. toctree::
     :hidden:
 
-    accounts-setup
+    must-have-accounts
+    tools-technologies

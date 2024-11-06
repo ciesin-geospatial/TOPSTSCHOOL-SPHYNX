@@ -30,6 +30,7 @@
 .. _github: https://github.com/
 .. _orcid: https://orcid.org/register
 .. _earthdata: https://urs.earthdata.nasa.gov/
+.. _zenodo: https://zenodo.org/
 
 .. _fair: https://www.nature.com/articles/sdata201618
 .. _open science: https://science.nasa.gov/open-science/

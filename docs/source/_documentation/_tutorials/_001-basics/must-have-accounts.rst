@@ -1,14 +1,14 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Saturday, November 02, 2024
-.. Last updated on: Sunday, November 03, 2024
+.. Last updated on: Wednesday, November 06, 2024
 
-:og:title: Accounts Setup
+:og:title: Must Have Accounts
 :og:description: Setting up all the necessary accounts for Open Science.
 
-.. _accounts-setup:
+.. _must-have-accounts:
 
 ===============================================================================
-Accounts Setup
+Must Have Accounts
 ===============================================================================
 
 .. title-hero::
@@ -18,11 +18,12 @@ Accounts Setup
         these easy, step-by-step guides to create and configure the accounts
         required for contributing towards open science.
 
-.. tags:: getting-started, open-science-101, github, orcid
+.. tags:: getting-started, open-science-101, github, orcid, nasa-earthdata,
+    zenodo
 
 .. contributors::
     :location: Chicago, IL
-    :timestamp: November 03, 2024
+    :timestamp: November 06, 2024
 
     - :name: Akshay Mestry
     - :email: xa@mes3.dev
@@ -39,6 +40,8 @@ setting up accounts on some key platforms will empower you to fully
 participate in this transparent, collaborative ecosystem. Below, we'll walk
 through the importance of each account, real-world use cases, and practical
 examples of how they are utilized in open science workflows.
+
+.. _about-github:
 
 -------------------------------------------------------------------------------
 GitHub
@@ -88,7 +91,9 @@ with open science!
 .. note::
 
     If you already have a GitHub account, you can skip this guide and checkout
-    things to do to :ref:`secure-your-github-account` below.
+    things to do to :ref:`securing-your-github-account` below.
+
+.. _creating-github-account:
 
 Creating GitHub Account
 ===============================================================================
@@ -127,7 +132,7 @@ Creating GitHub Account
 But before you move on, take a moment to congratulate yourself. You've just
 taken a significant step toward being part of the open science community!
 
-.. _secure-your-github-account:
+.. _securing-your-github-account:
 
 Securing Your GitHub Account
 ===============================================================================
@@ -235,6 +240,8 @@ GitHub account. All the security settings are accessible using the same steps.
                 token at each visit. You can also use an SSH key to sign
                 commits.
 
+.. _about-orcid:
+
 -------------------------------------------------------------------------------
 ORCID
 -------------------------------------------------------------------------------
@@ -250,6 +257,8 @@ ensuring that your contributions are correctly attributed to you, regardless
 of any changes :term:`Open Science`, where collaboration and transparency are
 key. Your ORCID profile becomes your digital fingerprint in the world of
 research, linking your work to your name in a global, accessible database.
+
+.. _creating-orcid-account:
 
 Creating ORCID Account
 ===============================================================================
@@ -277,13 +286,15 @@ Creating ORCID Account
     Set your visibility preferences. :term:`ORCID` gives you control over the
     privacy of your information. You can set your profile to be:
 
-    - **Public.** Anyone can see your information.
-    - **Limited.** Only trusted parties (like your institution) can view your
-      profile.
-    - **Private.** Only you can see your information.
+    - **Everyone.** Anyone can see your information.
+    - **Trusted parties.** Only trusted parties (like your institution) can
+      view your profile.
+    - **Only me.** Only you can see your information.
 
-    It is best to keep it **Public** to maximize visibility for your work in
+    It is best to keep it **Everyone** to maximize visibility for your work in
     :term:`Open Science`, but you can always change it later.
+
+.. _customizing-orcid-account:
 
 Make the Most of Your ORCID Account
 ===============================================================================
@@ -320,6 +331,241 @@ transparency, accessibility, and collaboration. By taking the time to set up
 your ORCID account, you're contributing to a global movement dedicated to
 making science open to all.
 
+.. _about-zenodo:
+
+-------------------------------------------------------------------------------
+Zenodo
+-------------------------------------------------------------------------------
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/
+    Zenodo-gradient-square.svg/1200px-Zenodo-gradient-square.svg.png
+    :alt: Zenodo banner
+
+Zenodo is a versatile, :term:`open access` :term:`data repository` developed
+under the European OpenAIRE program and operated by CERN. Launched to support
+the open science movement, Zenodo provides a platform for researchers to
+share, publish, and archive a wide variety of research outputs, including
+datasets, software, publications, and multimedia. It is an indispensable tool
+for scientists committed to the principles of open science, ensuring that
+their work is easily findable, accessible, citable, and reusable.
+
+.. dropdown:: Importance in Open Science
+
+    - **Long-Term Preservation and Accessibility.** Zenodo ensures that
+      research outputs are archived securely and remain accessible over the
+      long term. By partnering with CERN, a world leader in data preservation,
+      Zenodo offers robust infrastructure that guarantees your work will not
+      be lost or forgotten.
+    - **DOIs for Every Output.** One of Zenodo's most powerful features is its
+      ability to assign DOIs (Digital Object Identifiers) to all research
+      outputs. This feature gives your work a permanent, citable reference,
+      ensuring that you receive proper credit and recognition.
+    - **Supporting Transparency and Reproducibility.** Zenodo ensures that
+      research outputs are openly available and reproducible. By archiving
+      data and software with detailed :term:`metadata` and :term:`licensing`
+      information, researchers make it easier for others to validate findings
+      and build upon existing work.
+    - **Integration with GitHub.** Zenodo integrates seamlessly with GitHub, a
+      popular platform for hosting code and collaborating on software
+      projects. Researchers can set up Zenodo to automatically archive GitHub
+      repositories, creating versioned DOIs for each software release.
+
+Zenodo plays a crucial role in the scientific ecosystem by offering free and
+secure data hosting while also assigning Digital Object Identifiers (DOIs) to
+ensure research outputs are properly credited and remain citable. Zenodo is a
+popular choice for publishing datasets in a citable format. Researchers can
+upload large datasets, organize them with detailed metadata, and share them
+with a DOI that ensures proper citation and credit. Software is an
+increasingly important part of research, and Zenodo provides a reliable way to
+share and cite code. Researchers can link their :term:`GitHub` repositories
+and create DOIs for specific releases.
+
+.. _creating-zenodo-account:
+
+Creating Zenodo Account
+===============================================================================
+
+Creating a Zenodo account is super simple if you already have a GitHub or an
+ORCID account. If not already, checkout :ref:`creating-github-account` or
+:ref:`creating-orcid-account`.
+
+#. Go to `Zenodo`_.
+#. Click on Sign up. Here, you can choose to either sign up with your
+   information by providing them or you can link your GitHub or ORCID accounts.
+   If you choose the former, fill in the necessary details like your
+   **username**, **full name**, **affiliations**, **email** and a **password**.
+#. Once everything is entered, simply click Sign Up.
+
+.. _customizing-zenodo-account:
+
+Integrating with GitHub and ORCID
+===============================================================================
+
+Now that you've created and set up your Zenodo account, you're ready to link it
+with GitHub and ORCID. Follow the on screen instructions and integrate your
+respective accounts. The complete integration would look something like below:
+
+.. carousel::
+    :show_controls:
+    :show_fade:
+
+    .. image:: ../../../_assets/guides/zenodo-choose-profile.png
+        :alt: Navigate to your profile - Zenodo
+        :class: transparent-border no-rounded-corners
+
+    .. image:: ../../../_assets/guides/zenodo-link-accounts.png
+        :alt: Link Accounts - Zenodo
+        :class: transparent-border no-rounded-corners
+
+    .. image:: ../../../_assets/guides/zenodo-link-all.png
+        :alt: Linked Accounts (GitHub, ORCID and OpenAIRE) - Zenodo
+        :class: transparent-border no-rounded-corners
+
+.. _about-nasa-earthdata:
+
+-------------------------------------------------------------------------------
+NASA EarthData
+-------------------------------------------------------------------------------
+
+:term:`NASA` `EarthData`_ is a web-based system that provides global access to
+Earth science data from NASA's Earth Observing System Data and Information
+System (EOSDIS [#]_). EOSDIS manages, stores, and distributes a vast array of
+Earth science data gathered from NASA's Earth Observing satellites and field
+measurement programs. These datasets encompass critical variables like
+atmospheric composition, oceanography, land cover, climate, natural disasters,
+and more.
+
+.. dropdown:: Importance in Open Science
+
+    NASA EarthData embodies the principles of open science by offering free,
+    unrestricted access to data that is crucial for understanding our planet.
+    In line with the :term:`FAIR` principles |html-dash| **Findable**,
+    **Accessible**, **Interoperable**, and **Reusable** |html-dash| NASA
+    EarthData makes complex scientific information available in a way that
+    fosters :term:`transparency`, :term:`reproducibility`, and
+    :term:`collaborative research`.
+
+    - **Promoting Transparency and Reproducibility.** By providing
+      unrestricted access to high-quality environmental data, NASA EarthData
+      ensures that research findings are reproducible and verifiable.
+      Scientists from anywhere in the world can use the same datasets, run
+      their own analyses, and compare results, which strengthens the
+      credibility of scientific research.
+    - **Enabling Interdisciplinary Collaboration.** Environmental challenges,
+      such as climate change, require input from multiple scientific
+      disciplines. NASA EarthData facilitates this by offering diverse
+      datasets that can be used across fields like meteorology, ecology,
+      sociology, and economics. This fosters a spirit of collaboration and
+      cross-pollination of ideas.
+    - **Supporting Global Efforts to Tackle Environmental Issues.** From
+      climate change to disaster management, NASA `EarthData`_ provides
+      critical insights that inform global efforts to protect the planet. Open
+      access to this data empowers not just scientists but also policymakers,
+      educators, and activists working toward environmental sustainability.
+
+Researchers, scientists, policymakers, and educators worldwide use NASA
+EarthData to address pressing scientific questions and societal challenges. For researchers working with Earth science data, NASA EarthData provides
+access to extensive datasets.
+
+.. tab-set::
+
+    .. tab-item:: Use cases
+
+        - **Climate Change Research.** NASA `EarthData`_ provides researchers
+          with critical information on global temperature patterns, ice sheet
+          dynamics, sea level rise, and carbon dioxide concentrations. Using
+          this data, climate scientists can model future scenarios and develop
+          strategies to mitigate climate change effects.
+        - **Natural Disaster Monitoring and Response.** NASA EarthData plays a
+          pivotal role in disaster management by offering near-real-time data
+          on hurricanes, wildfires [#]_, earthquakes [#]_, and other natural
+          disasters. [#]_ This data is crucial for tracking the progression of
+          a disaster and coordinating response efforts.
+        - **Environmental Justice and Health Research.** Researchers and
+          policy makers use NASA `EarthData`_ to study the environmental
+          factors affecting human health, such as air quality [#]_ and water
+          contamination. [#]_ This data helps identify regions
+          disproportionately affected by pollution and guides efforts toward
+          achieving environmental justice. [#]_
+        - **Agriculture, Water Resource Management and Food Security.**
+          Agricultural scientists use data from NASA EarthData to monitor crop
+          health, predict yields, and understand the impacts of drought and
+          other climate-related factors. This information is essential for
+          ensuring food security in vulnerable regions.
+
+    .. tab-item:: Why is it so important?
+
+        - **Global Access to Critical Environmental Data.** NASA EarthData
+          democratizes access to some of the most comprehensive Earth science
+          datasets available. With data spanning decades, it provides a
+          historical perspective that can help researchers analyze trends and
+          patterns over time. This kind of data is critical for climate
+          studies, disaster management, and environmental monitoring.
+        - **High-Quality and Reliable Data.** All data hosted on NASA
+          `EarthData`_ is meticulously curated and validated, making it highly
+          reliable for research and analysis. These datasets come from
+          state-of-the-art satellite missions and are updated frequently,
+          providing researchers with up-to-date information on global
+          environmental changes.
+        - **Supporting Scientific Collaboration.** :term:`Open Access` to NASA
+          EarthData encourages collaboration among scientists across different
+          disciplines and geographic locations. For example, a climate
+          scientist studying global warming in the Arctic can share insights
+          and data with an agricultural researcher investigating crop impacts
+          in Asia. This interdisciplinary collaboration fosters a holistic
+          understanding of Earth's interconnected systems.
+
+.. _creating-nasa-earthdata-account:
+
+Creating EarthData Account
+===============================================================================
+
+#. Go to `EarthData`_.
+#. Click on Register. Like ORCID, you'll see a form asking for some basic
+   information. Enter your information like your **username** and **password**.
+   Confirm the password once. Instructions about the password requirements
+   would be mentioned while entering the password.
+#. Next would be the **first** and **last name**, **primary email address**,
+   your **Country of Research** and **Affiliations**.
+#. Review and accept the EarthData terms of use and privacy policy.
+#. Finally, Click the :guilabel:`&Register For EarthData Login` button to
+   complete the form submission.
+
+-------------------------------------------------------------------------------
+Summary and Up Next
+-------------------------------------------------------------------------------
+
+Congratulations!
+
+You've now successfully set up some of the most critical
+accounts that will empower your journey in open science. These platforms will
+serve as your foundation, enabling you to share, collaborate, and publish
+research data while adhering to the highest standards of openness and
+accessibility. These accounts were your first steps into the open science
+landscape, and each one is an important piece of the puzzle. Whether you're
+archiving your research, sharing datasets, or managing your scholarly
+identity, you're now equipped to participate in a global community dedicated
+to transparency, reproducibility, and collaboration.
+
+With your foundational accounts established, it's time to gear up with the
+tools that will make your open science experience efficient and effective. In
+the next section, we'll explore the essential software and platforms you'll
+need. This upcoming guide will walk you through the necessary tools, explain
+its significance, and provide detailed instructions on setting them up and
+using them effectively. We'll also cover best practices to enhance your
+workflow and collaborate with other researchers around the world.
+
+.. grid:: 2 2 2 2
+
+    .. grid-item::
+
+        .. card:: Tools to empower your Open Science workflows
+            :img-alt: Tools setup guide
+            :img-background: ../../../_assets/guides/tools-technologies.png
+            :link-type: doc
+            :link: tools-technologies
+            :shadow: none
+
 .. rubric:: References
     :heading-level: 2
 
@@ -327,5 +573,33 @@ making science open to all.
        <https://docs.github.com/en/authentication/securing-your-account-with
        -two-factor-authentication-2fa/configuring-two-factor-authentication>`_.
 .. [#] Learn more about `Adding a passkey to your account <https://docs.github.
-       com/en/authentication/authenticating-with-a-passkey/
-       managing-your-passkeys#adding-a-passkey-to-your-account>`_.
+       com/en/authentication/authenticating-with-a-passkey/managing-your
+       -passkeys#adding-a-passkey-to-your-account>`_.
+.. [#] Earth Observing System Data Information System (EOSDIS)
+       `case studies <https://appel.nasa.gov/critical-knowledge/case-studies/
+       appel-case-studies/eosdis-html/>`_.
+.. [#] NASA's `wildfire data <https://www.earthdata.nasa.gov/topics/human
+       -dimensions/wildfires>`_ enable users to monitor conditions before a
+       fire starts, track them once they do, and assess their effects after a
+       burn.
+.. [#] NASA's `earthquake data <https://www.earthdata.nasa.gov/topics/solid
+       -earth/earthquakes>`_ help researchers understand the land surface
+       deformation, health risks, and economic impacts caused by these
+       disasters.
+.. [#] Natural Hazards, a topic on the NASA EarthData `forum <https://www.
+       earthdata.nasa.gov/topics/human-dimensions/natural-hazards>`_.
+.. [#] NASA's `air quality data <https://www.earthdata.nasa.gov/topics/
+       atmosphere/air-quality>`_ allow users to measure pollutants in the
+       atmosphere and track their health and socioeconomic impact on people.
+.. [#] Diseases caused by consuming water that contains harmful
+       microorganisms, biotoxins, or toxic contaminants. Examples include
+       cholera, schistosomiasis, and other gastrointestinal problems.
+       `Waterborne diseases <https://www.earthdata.nasa.gov/topics/human
+       -dimensions/waterborne-diseases>`_ are often the result of unsafe
+       sanitation practices or a breakdown in infrastructure that can be a
+       result of or exacerbated by various natural hazards, such as flood or
+       drought.
+.. [#] NASA's `Earth-observing and socioeconomic data <https://www.earthdata.
+       nasa.gov/topics/human-dimensions/environmental-justice>`_ offers
+       researchers the ability to identify environmental issues
+       disproportionally harming communities.
