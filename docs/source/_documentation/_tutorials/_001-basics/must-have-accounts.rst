@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Saturday, November 02, 2024
-.. Last updated on: Wednesday, November 06, 2024
+.. Last updated on: Friday, November 08, 2024
 
 :og:title: Must Have Accounts
 :og:description: Setting up all the necessary accounts for Open Science.
@@ -532,7 +532,7 @@ Creating EarthData Account
    complete the form submission.
 
 -------------------------------------------------------------------------------
-Summary and Up Next
+Up Next
 -------------------------------------------------------------------------------
 
 Congratulations!
