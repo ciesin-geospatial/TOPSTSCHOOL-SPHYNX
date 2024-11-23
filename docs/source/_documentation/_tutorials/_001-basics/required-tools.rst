@@ -1,18 +1,19 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Wednesday, November 06, 2024
-.. Last updated on: Friday, November 08, 2024
+.. Last updated on: Saturday, November 16, 2024
 
 :og:title: Tools and Technologies
-:og:description: Tools to empower your Open Science workflows.
+:og:description: An overview of the tools necessary to contribute effectively
+    to the open science workflows.
 
-.. _tools-technologies:
+.. _required-tools:
 
 ===============================================================================
-Tools and Technologies
+Required Tools
 ===============================================================================
 
 .. title-hero::
-    :icon: fa-brands fa-python
+    :icon: fa-solid fa-gear-code
     :summary:
         Equip yourself with the essential tools required for efficient coding,
         data analysis, and collaboration in Open Science.

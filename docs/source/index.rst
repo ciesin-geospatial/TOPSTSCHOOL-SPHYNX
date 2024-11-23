@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, October 28, 2024
-.. Last updated on: Friday, November 01, 2024
+.. Last updated on: Friday, November 22, 2024
 
 :orphan:
 :og:title: Science Core Heuristics for Open Science Outcomes in Learning
@@ -54,8 +54,31 @@ Project announcements: `TOPSTSCHOOL <https://ciesin-geospatial.github.io/TOPSTSC
 Learn about our recent work: `Blog Posts <https://ciesin-geospatial.github.io/TOPSTSCHOOL/about.html#blog>`_ • `Presentations <https://ciesin-geospatial.github.io/TOPSTSCHOOL/about.html#slides>`_ • `SEDAC <https://sedac.ciesin.columbia.edu/>`_ • `CIESIN <https://www.ciesin.columbia.edu/index.html>`_ • `iSciences <https://www.isciences.com/>`_ • `Baruch College <https://www.baruch.cuny.edu/>`_
 
 .. toctree::
+    :caption: About Us
+    :hidden:
+    :titlesonly:
+
+    _about-us/announcements
+    _about-us/events-talks
+
+.. toctree::
     :caption: Tutorials & Guides
     :hidden:
     :titlesonly:
 
     _documentation/_tutorials/_001-basics/open-science-101
+
+.. toctree::
+    :caption: Community
+    :hidden:
+    :titlesonly:
+
+    _community/getting-involved
+    _community/meet-the-team
+
+.. toctree::
+    :caption: Resources
+    :hidden:
+    :titlesonly:
+
+    _resources/glossary

@@ -1,18 +1,19 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Saturday, November 02, 2024
-.. Last updated on: Friday, November 08, 2024
+.. Last updated on: Saturday, November 16, 2024
 
-:og:title: Must Have Accounts
-:og:description: Setting up all the necessary accounts for Open Science.
+:og:title: Accounts Setup
+:og:description: A guide to setting up essential accounts required for
+    contributing to the open science.
 
-.. _must-have-accounts:
+.. _accounts-setup:
 
 ===============================================================================
-Must Have Accounts
+Accounts Setup
 ===============================================================================
 
 .. title-hero::
-    :icon: fa-brands fa-github
+    :icon: fa-solid fa-badge-check
     :summary:
         Set up essential accounts needed to contribute to Open Science. Follow
         these easy, step-by-step guides to create and configure the accounts
@@ -555,7 +556,7 @@ its significance, and provide detailed instructions on setting them up and
 using them effectively. We'll also cover best practices to enhance your
 workflow and collaborate with other researchers around the world.
 
-.. grid:: 2 2 2 2
+.. grid:: 3 3 3 3
 
     .. grid-item::
 
@@ -563,7 +564,7 @@ workflow and collaborate with other researchers around the world.
             :img-alt: Tools setup guide
             :img-background: ../../../_assets/guides/tools-technologies.png
             :link-type: doc
-            :link: tools-technologies
+            :link: required-tools
             :shadow: none
 
 .. rubric:: References

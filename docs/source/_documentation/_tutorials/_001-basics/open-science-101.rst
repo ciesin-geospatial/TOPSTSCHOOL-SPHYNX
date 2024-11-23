@@ -1,9 +1,10 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Friday, November 01, 2024
-.. Last updated on: Saturday, November 02, 2024
+.. Last updated on: Saturday, November 16, 2024
 
 :og:title: Open Science 101
-:og:description: How-To guides for all things Open Science.
+:og:description: An introduction to the principles, practices, and importance
+    of open science for collaboration and accessibility.
 
 .. _open-science-101:
 
@@ -253,7 +254,7 @@ everything from setting up necessary accounts to configuring IDEs.
             :img-alt: Accounts setup guide
             :img-background: ../../../_assets/guides/must-have-accounts.png
             :link-type: doc
-            :link: must-have-accounts
+            :link: accounts-setup
             :shadow: none
 
     .. grid-item::
@@ -262,7 +263,7 @@ everything from setting up necessary accounts to configuring IDEs.
             :img-alt: Tools setup guide
             :img-background: ../../../_assets/guides/tools-technologies.png
             :link-type: doc
-            :link: tools-technologies
+            :link: required-tools
             :shadow: none
 
 .. rubric:: References
@@ -280,5 +281,5 @@ everything from setting up necessary accounts to configuring IDEs.
 .. toctree::
     :hidden:
 
-    must-have-accounts
-    tools-technologies
+    accounts-setup
+    required-tools
