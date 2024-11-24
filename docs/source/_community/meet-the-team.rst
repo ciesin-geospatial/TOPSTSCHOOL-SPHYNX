@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Saturday, November 23, 2024
-.. Last updated on: Saturday, November 23, 2024
+.. Last updated on: Sunday, November 24, 2024
 
 :og:title: Meet TOPSTSCHOOL Team
 :og:description: Meet our Open Science, Development, Consulation Team and SMEs.
@@ -21,7 +21,7 @@ Meet the Team
 .. tags:: topstschool, community
 
 .. contributors::
-    :location: Palisades, NY
+    :location: Palisades, NY & Chicago, IL
     :timestamp: November 23, 2024
     :prefix: Put together by
 
@@ -56,6 +56,8 @@ background or prior experience, can participate in and contribute to the world
 of :term:`Open Science`.
 
 Below are all the amazing people who made TOPSTSCHOOL possible.
+
+.. _open-science-team:
 
 -------------------------------------------------------------------------------
 Open Science Team
@@ -134,6 +136,8 @@ power of knowledge sharing and inclusivity.
     - Open Science Team
     - ../_assets/team/empty.png
 
+.. _consultation-team-sme:
+
 -------------------------------------------------------------------------------
 Consultation Team and Subject Matter Experts
 -------------------------------------------------------------------------------
@@ -206,6 +210,8 @@ educators, and researchers with tools and knowledge to drive meaningful change.
     - Thomas Parris
     - President at `iSciences`_
     - ../_assets/team/consultants/parris.png
+
+.. _development-team:
 
 -------------------------------------------------------------------------------
 Development Team

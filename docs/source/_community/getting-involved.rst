@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Saturday, November 23, 2024
-.. Last updated on: Saturday, November 23, 2024
+.. Last updated on: Sunday, November 24, 2024
 
 :og:title: How to Get Involved
 :og:description: Learn how to get involved with the TOPSTSCHOOL team.
@@ -41,6 +41,8 @@ thematic areas.
 
 Here's how you can contribute:
 
+.. _become-sme:
+
 -------------------------------------------------------------------------------
 Become a Subject Matter Expert (SME)
 -------------------------------------------------------------------------------
@@ -70,6 +72,8 @@ diverse audiences. To express your interest or learn more, please complete the
 Your expertise will help us build transformative learning tools that make a
 lasting impact.
 
+.. _join-open-science-team:
+
 -------------------------------------------------------------------------------
 Join the Open Science Team
 -------------------------------------------------------------------------------
@@ -95,6 +99,8 @@ Google Form`_ or contact us via email: TOPSTSCHOOL@ciesin.columbia.edu.
 
 We value your perspectives and are excited to collaborate with you to promote
 a more open and collaborative approach to science education.
+
+.. _why-join-us:
 
 -------------------------------------------------------------------------------
 Why Join Us?
