@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, October 28, 2024
-.. Last updated on: Sunday, November 24, 2024
+.. Last updated on: Monday, November 25, 2024
 
 :orphan:
 :og:title: Science Core Heuristics for Open Science Outcomes in Learning
@@ -201,6 +201,7 @@ thematic content regularly and in manageable stages.
     :titlesonly:
 
     _documentation/_tutorials/_001-basics/open-science-101
+    _documentation/_tutorials/_002-contributing/contributing-to-school
 
 .. toctree::
     :caption: Community
