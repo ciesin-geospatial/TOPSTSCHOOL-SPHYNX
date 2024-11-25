@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Saturday, November 02, 2024
-.. Last updated on: Saturday, November 16, 2024
+.. Last updated on: Monday, November 25, 2024
 
 :og:title: Accounts Setup
 :og:description: A guide to setting up essential accounts required for
@@ -152,6 +152,7 @@ GitHub account. All the security settings are accessible using the same steps.
 .. carousel::
     :show_controls:
     :show_fade:
+    :show_indicators:
 
     .. image:: ../../../_assets/guides/github-secure-profile.png
         :alt: Navigate to your profile - GitHub
@@ -409,6 +410,7 @@ respective accounts. The complete integration would look something like below:
 .. carousel::
     :show_controls:
     :show_fade:
+    :show_indicators:
 
     .. image:: ../../../_assets/guides/zenodo-choose-profile.png
         :alt: Navigate to your profile - Zenodo
