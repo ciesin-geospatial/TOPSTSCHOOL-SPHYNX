@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Saturday, November 16, 2024
-.. Last updated on: Saturday, November 16, 2024
+.. Last updated on: Tuesday, November 26, 2024
 
 :og:title: Contributing to SCHOOL
 :og:description: A comprehensive guide to getting started with contributing
@@ -70,6 +70,8 @@ Your contributions, no matter the size, ripple outward, touching the lives of
 people across the globe and paving the way for transformative scientific
 discoveries. Every effort you make is a part of something larger than all of
 us, and we are genuinely grateful to have you on this journey with us.
+
+Write content for Sphinx's getting started guide.
 
 .. toctree::
     :hidden:
