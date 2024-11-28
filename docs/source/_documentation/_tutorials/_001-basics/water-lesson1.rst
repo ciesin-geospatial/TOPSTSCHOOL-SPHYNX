@@ -1,6 +1,6 @@
-.. Author: Akshay Mestry <xa@mes3.dev>
-.. Created on: Saturday, November 02, 2024
-.. Last updated on: Sunday, November 03, 2024
+.. Author: Dhruvil Prajapatip <dprajapati@nl.edu>
+.. Created on: Saturday, November 28, 2024
+.. Last updated on: Sunday, November 28, 2024
 
 :og:title: Accounts Setup
 :og:description: Setting up all the necessary accounts for Open Science.
