@@ -837,3 +837,38 @@ Lesson 2
 
 In this lesson we explored the California drought of 2014. In our next lesson, we will examine near real-time flood data in California using the MODIS data product.
 
+.. rubric:: References
+    :heading-level: 2
+
+#. Bland, Alastair. 2014. “California Drought Has Wild Salmon Competing with Almonds for Water.” National Public Radio. https://www.npr.org/sections/thesalt/2014/08/21/342167846/california-drought-has-wild-salmon-competing-with-almonds-for-water.
+
+#. Center For International Earth Science Information Network-CIESIN-Columbia University. 2018. “Gridded Population of the World, Version 4 (GPWv4): Population Count, Revision 11.” Palisades, NY: NASA Socioeconomic Data; Applications Center (SEDAC). https://doi.org/10.7927/H4JW8BX5.
+
+#. Daniel Baston. 2023. Exactextractr: Fast Extraction from Raster Datasets Using Polygons. https://isciences.gitlab.io/exactextractr/.
+
+#. “Evidence Suggests California’s Drought Is the Worst in 1,200 Years.” 2014. Woods Hole Oceanographic Institution. https://phys.org/news/2014-12-evidence-california-drought-worst-years.html.
+
+#. Guillen, George. 2002. “Klamath River Fish Die-Off.” Mortality Report AFWO-01-03. Arcata, CA: U.S. Fish & Wildlife Service. https://www.trrp.net/DataPort/doc.php?id=301.
+
+#. IPCC. 2023. “Climate Change 2021 the Physical Science Basis,” June. https://doi.org/10.1017/9781009157896.
+
+#. ISciences, and Center For International Earth Science Information Network-CIESIN-Columbia University. 2022a. “Documentation for the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1.” Palisades, NY: NASA Socioeconomic Data; Applications Center (SEDAC). https://doi.org/10.7927/X7FJ-JJ41.
+
+#. ———. 2022b. “Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1.” Palisades, NY: NASA Socioeconomic Data; Applications Center (SEDAC). https://doi.org/10.7927/Z1FN-KF73.
+
+#. Leyk, Stefan, Andrea E. Gaughan, Susana B. Adamo, Alex de Sherbinin, Deborah Balk, Sergio Freire, Amy Rose, et al. 2019. “The Spatial Allocation of Population: A Review of Large-Scale Gridded Population Data Products and Their Fitness for Use.” Earth System Science Data 11 (3): 1385–1409. https://doi.org/10.5194/essd-11-1385-2019.
+
+#. NOAA. 2019. “Water Cycle.” National Oceanic; Atmospheric Administration. https://www.noaa.gov/education/resource-collections/freshwater/water-cycle.
+
+#. ———. 2023. “What Are El Nino and La Nina?” National Oceanic; Atmospheric Administration. https://oceanservice.noaa.gov/facts/ninonina.html.
+
+#. Rodgers, Alison Ince. 2023. “Understanding Droughts.” National Geographic Society. https://education.nationalgeographic.org/resource/understanding-droughts/.
+
+#. Roeseler, Charles. 2011. “Exceptional Drought Continues Across Southeast Texas.” National Weather Service. https://www.weather.gov/media/hgx/stormsignals/vol87.pdf.
+
+#. Sanders, Sam. 2014. “Despite California’s Drought, Taps Still Flowing in LA County.” National Public Radio. https://www.npr.org/2014/07/20/333019977/despite-californias-drought-taps-still-flowing-in-la-county.
+
+#. StateImpact. 2014. “Everything You Need to Know about the Texas Drought.” National Public Radio. https://stateimpact.npr.org/texas/tag/drought/.
+
+#. Zhou, Haddeland, T. 2016. “Human-Induced Changes in the Global Water Cycle.” Geophysical Monograph Series. https://doi.org/10.1002/9781118971772.ch4.
+
