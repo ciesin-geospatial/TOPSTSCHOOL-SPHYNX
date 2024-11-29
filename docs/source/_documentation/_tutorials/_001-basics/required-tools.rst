@@ -21,16 +21,13 @@ Required Tools
 .. tags:: getting-started, open-science-101
 
 .. contributors::
-    :location: Chicago, IL
-    :timestamp: November 08, 2024
+    :location: Palisades, NY
 
-    - :name: Akshay Mestry
-    - :email: xa@mes3.dev
-    - :headshot: https://avatars.githubusercontent.com/u/90549089?v=4
-    - :github: https://github.com/xames3
-    - :linkedin: https://linkedin.com/in/xames3
-    - :orcid: https://orcid.org/0009-0000-4562-8983
-    - :status: Open Source Maintainer
+    - :name: TOPSTSCHOOL Development Team
+    - :email: TOPSTSCHOOL@gmail.com
+    - :headshot: https://avatars.githubusercontent.com/u/16084170?s=200&v=4
+    - :github: https://github.com/ciesin-geospatial
+    - :youtube: https://www.youtube.com/@TOPSTSCHOOL
 
 In the world of :term:`Open Science`, collaboration and innovation go
 hand-in-hand. Scientists, researchers, and contributors from across the globe
