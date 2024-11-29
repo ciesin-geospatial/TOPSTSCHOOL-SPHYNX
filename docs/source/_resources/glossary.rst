@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, October 28, 2024
-.. Last updated on: Friday, November 08, 2024
+.. Last updated on: Thursday, November 28, 2024
 
 :og:title: Glossary
 :og:description: Quick reference to all the terms related to Open Science.
@@ -38,6 +38,8 @@ Glossary
     - :github: https://github.com/dhru-repository
     - :linkedin: https://www.linkedin.com/in/dhruvil-p-239877164/
     - :status: Open Science Team Member
+
+.. _terms-definitions:
 
 -------------------------------------------------------------------------------
 Terms & Definitions

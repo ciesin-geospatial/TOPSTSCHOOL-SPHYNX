@@ -3,14 +3,14 @@
 #
 # Author: Akshay Mestry <xa@mes3.dev>
 # Created on: Sunday, October 27 2024
-# Last updated on: Saturday, November 02 2024
+# Last updated on: Thursday, November 28 2024
 
 name: deployment
 run-name: Started ${{ github.workflow }} after ${{ github.actor }}'s actions
 
 on:
   workflow_dispatch:
-  pull_request:
+  pull_request_target:
     paths:
       - 'docs/**'
       - 'requirements*'
