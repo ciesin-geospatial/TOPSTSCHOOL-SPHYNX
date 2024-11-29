@@ -21,7 +21,7 @@ Meet the Team
 .. tags:: topstschool, community
 
 .. contributors::
-    :location: Palisades, NY & Chicago, IL
+    :location: Palisades, NY
     :timestamp: November 23, 2024
     :prefix: Put together by
 
@@ -30,14 +30,6 @@ Meet the Team
     - :headshot: https://avatars.githubusercontent.com/u/16084170?s=200&v=4
     - :github: https://github.com/ciesin-geospatial
     - :youtube: https://www.youtube.com/@TOPSTSCHOOL
-
-    - :name: Akshay Mestry
-    - :email: xa@mes3.dev
-    - :headshot: https://avatars.githubusercontent.com/u/90549089?v=4
-    - :github: https://github.com/xames3
-    - :linkedin: https://linkedin.com/in/xames3
-    - :orcid: https://orcid.org/0009-0000-4562-8983
-    - :status: Open Source Maintainer
 
 The :term:`SCHOOL` project is an ambitious and innovative initiative designed
 to advance education in the field of data science, specifically within the

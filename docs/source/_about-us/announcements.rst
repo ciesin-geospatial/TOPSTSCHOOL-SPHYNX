@@ -19,12 +19,10 @@ Announcements
 .. tags:: topstschool, meetings
 
 .. contributors::
-    :location: Chicago, IL
+    :location: Palisades, NY
 
-    - :name: Akshay Mestry
-    - :email: xa@mes3.dev
-    - :headshot: https://avatars.githubusercontent.com/u/90549089?v=4
-    - :github: https://github.com/xames3
-    - :linkedin: https://linkedin.com/in/xames3
-    - :orcid: https://orcid.org/0009-0000-4562-8983
-    - :status: Open Source Maintainer
+    - :name: TOPSTSCHOOL Development Team
+    - :email: TOPSTSCHOOL@gmail.com
+    - :headshot: https://avatars.githubusercontent.com/u/16084170?s=200&v=4
+    - :github: https://github.com/ciesin-geospatial
+    - :youtube: https://www.youtube.com/@TOPSTSCHOOL
