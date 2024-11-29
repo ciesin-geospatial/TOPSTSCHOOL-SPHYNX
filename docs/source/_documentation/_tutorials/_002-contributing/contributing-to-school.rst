@@ -1,6 +1,6 @@
-.. Author: Akshay Mestry <xa@mes3.dev>
+.. Author: Akshay Mestry <xa@mes3.dev> & Dhruvil Prajapati <dprajapati@nl.edu>
 .. Created on: Saturday, November 16, 2024
-.. Last updated on: Tuesday, November 26, 2024
+.. Last updated on: Thursday, November 28, 2024
 
 :og:title: Contributing to SCHOOL
 :og:description: A comprehensive guide to getting started with contributing
@@ -32,6 +32,13 @@ Contributing to SCHOOL
     - :linkedin: https://linkedin.com/in/xames3
     - :orcid: https://orcid.org/0009-0000-4562-8983
     - :status: Open Source Maintainer
+
+    - :name: Dhruvil Prajapati
+    - :email: dprajapati@my.nl.edu
+    - :headshot: https://avatars.githubusercontent.com/u/69695749?v=4
+    - :github: https://github.com/dhru-repository
+    - :linkedin: https://www.linkedin.com/in/dhruvil-p-239877164/
+    - :status: Open Science Team Member
 
 We're super happy that you're here and eager to contribute to our mission of
 promoting :term:`open science` and accessibility in research. Every
@@ -90,7 +97,8 @@ exisiting tutorial, or adding new content, we'll walk you through the process:
   organization of the project, where to find the files you'll work on, and the
   purpose of each directory.
 - **Learn Sphinx and reStructuredText (rST).** Master the tools we use for
-  documentation.
+  documentation. Sphinx and rST make it easy to create professional,
+  well-organized content.
 
 .. toctree::
     :hidden:
