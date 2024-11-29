@@ -161,6 +161,9 @@ Zenodo `here <https://zenodo.org/communities/topstschool/records?q=&l=list&p=1
 Why Join SCHOOL?
 -------------------------------------------------------------------------------
 
+.. image:: ./_assets/team/team.jpeg
+    :alt: SCHOOL Team
+
 The SCHOOL Project isn't just about education; it's about building a community
 of learners and researchers committed to advancing Open Science. By
 participating in SCHOOL, you're contributing to a brighter, more collaborative
