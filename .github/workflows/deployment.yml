@@ -11,6 +11,10 @@ run-name: Started ${{ github.workflow }} after ${{ github.actor }}'s actions
 on:
   workflow_dispatch:
   pull_request_target:
+    paths:
+      - '.github/**'
+      - 'docs/**'
+      - 'requirements*'
 
 permissions:
   contents: write
