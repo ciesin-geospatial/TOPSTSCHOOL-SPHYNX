@@ -1,9 +1,10 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Friday, November 01, 2024
-.. Last updated on: Saturday, November 02, 2024
+.. Last updated on: Saturday, November 16, 2024
 
 :og:title: Open Science 101
-:og:description: How-To guides for all things Open Science.
+:og:description: An introduction to the principles, practices, and importance
+    of open science for collaboration and accessibility.
 
 .. _open-science-101:
 
@@ -245,15 +246,24 @@ into the next section, we'll introduce you to the software and platforms that
 can help you implement open science practices efficiently. We'll cover
 everything from setting up necessary accounts to configuring IDEs.
 
-.. grid:: 2 2 2 2
+.. grid:: 3 3 3 3
 
     .. grid-item::
 
         .. card:: Setting up GitHub, ORCID accounts and more
             :img-alt: Accounts setup guide
-            :img-background: ../../../_assets/guides/accounts-setup-card.png
+            :img-background: ../../../_assets/guides/must-have-accounts.png
             :link-type: doc
             :link: accounts-setup
+            :shadow: none
+
+    .. grid-item::
+
+        .. card:: Tools to empower your Open Science workflows
+            :img-alt: Tools setup guide
+            :img-background: ../../../_assets/guides/tools-technologies.png
+            :link-type: doc
+            :link: required-tools
             :shadow: none
 
 .. rubric:: References
@@ -272,3 +282,4 @@ everything from setting up necessary accounts to configuring IDEs.
     :hidden:
 
     accounts-setup
+    required-tools

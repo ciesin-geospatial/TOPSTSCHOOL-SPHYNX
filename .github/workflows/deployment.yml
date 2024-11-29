@@ -15,8 +15,7 @@ on:
       - 'docs/**'
       - 'requirements*'
 
-permissions:
-  contents: write
+permissions: write-all
 
 env:
   ARTIFACTNAME: topstschool-pages
@@ -74,10 +73,6 @@ jobs:
   deploy:
     name: deploy
     needs: [lint, build]
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
     environment:
       name: canary
       url: ${{ steps.deployment.outputs.page_url }}

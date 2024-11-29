@@ -4,7 +4,7 @@ TOPSTSCHOOL Sphinx (Documentation) Configuration
 
 Author: Akshay Mestry <xa@mes3.dev>
 Created on: Sunday, October 27 2024
-Last updated on: Friday, November 01 2024
+Last updated on: Friday, November 22 2024
 
 This file contains the configuration settings for building the TOPSTSCHOOL
 documentation using Sphinx, a popular Python documentation tool. Sphinx
@@ -85,13 +85,6 @@ html_coeus_theme_options: dict[str, t.Any] = {
     "last_updated": last_updated,
     "show_previous_next_pages": True,
     "supported_languages": {"en": "English"},
-    "navbar_links": {
-        "Resources": {
-            "Glossary": "_resources/glossary",
-        },
-        "Community": {},
-        "About Us": {},
-    },
 }
 
 # -- Options for HTML output --------------------------------------------------
