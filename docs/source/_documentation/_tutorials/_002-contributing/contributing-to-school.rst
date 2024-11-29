@@ -47,8 +47,10 @@ In this guide, we'll take you through the complete process of contributing to
 our project. Step by step, you'll gain the confidence to dive in, contribute
 meaningfully, and make a lasting impact.
 
+.. _why-contribute:
+
 -------------------------------------------------------------------------------
-Why Contribute to TOPSTSCHOOL?
+Why Contribute?
 -------------------------------------------------------------------------------
 
 Before we dive into the details, let's take a moment to reflect on why
@@ -71,7 +73,24 @@ people across the globe and paving the way for transformative scientific
 discoveries. Every effort you make is a part of something larger than all of
 us, and we are genuinely grateful to have you on this journey with us.
 
-Write content for Sphinx's getting started guide.
+.. _how-to-contribute:
+
+-------------------------------------------------------------------------------
+How to Contribute?
+-------------------------------------------------------------------------------
+
+We understand that contributing to a large project like this can feel a little
+bit overwhelming at first. But don't worry |html-dash| you're not alone! This
+guide is here to break the process down into simple, actionable steps. By
+following these steps, you'll learn everything you need to become a confident
+contributor. Whether you'r just fixing a typo, enhancing a part of the
+exisiting tutorial, or adding new content, we'll walk you through the process:
+
+- **Explore the repository and code structure.** Get familiar with the
+  organization of the project, where to find the files you'll work on, and the
+  purpose of each directory.
+- **Learn Sphinx and reStructuredText (rST).** Master the tools we use for
+  documentation.
 
 .. toctree::
     :hidden:
