@@ -31,9 +31,9 @@ WSIM-GLDAS: Acquisition, Exploration, and Integration
     - :linkedin:
     - :status:
 
----------
-Overview
----------
+-----------------
+Lesson 1 Overview
+-----------------
 In this lesson, you will acquire the dataset called Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) from the NASA Socioeconomic Data and Applications Center (SEDAC) website, perform various pre-processing tasks, and explore the dataset with advanced visualizations. We will also integrate WSIM-GLDAS with a global administrative boundary dataset called geoBoundaries and a population dataset called the Gridded Population of the World. You will learn how to perform numerous data manipulations and visualizations throughout this lesson.
 
 
