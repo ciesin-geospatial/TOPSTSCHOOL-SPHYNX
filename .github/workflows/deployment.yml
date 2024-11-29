@@ -15,8 +15,7 @@ on:
       - 'docs/**'
       - 'requirements*'
 
-permissions:
-  contents: write-all
+permissions: write-all
 
 env:
   ARTIFACTNAME: topstschool-pages
