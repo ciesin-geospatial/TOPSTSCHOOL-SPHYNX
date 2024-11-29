@@ -59,3 +59,4 @@ Learn about our recent work: `Blog Posts <https://ciesin-geospatial.github.io/TO
     :titlesonly:
 
     _documentation/_tutorials/_001-basics/open-science-101
+    _documentation/_tutorials/_001-basics/water-module
