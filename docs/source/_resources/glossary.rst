@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, October 28, 2024
-.. Last updated on: Saturday, November 02, 2024
+.. Last updated on: Thursday, November 28, 2024
 
 :og:title: Glossary
 :og:description: Quick reference to all the terms related to Open Science.
@@ -38,6 +38,8 @@ Glossary
     - :github: https://github.com/dhru-repository
     - :linkedin: https://www.linkedin.com/in/dhruvil-p-239877164/
     - :status: Open Science Team Member
+
+.. _terms-definitions:
 
 -------------------------------------------------------------------------------
 Terms & Definitions
@@ -93,7 +95,7 @@ Terms & Definitions
         and manage code repositories, track changes, and collaborate across
         distributed teams.
 
-    Version Control System (VCS)
+    Version Control System
         A system that records changes to files over time, allowing teams to
         collaborate and track the history of changes in code or documents. Git
         is one of the most widely used version control systems in open science.
@@ -247,3 +249,23 @@ Terms & Definitions
         `Visual Studio Code <https://code.visualstudio.com/>`_,
         `PyCharm <https://www.jetbrains.com/pycharm/>`_, and
         `RStudio <https://posit.co/download/rstudio-desktop/>`_.
+
+    Data Processing Tools
+        Data processing tools are software applications used to collect,
+        transform, analyze, and visualize data. These tools help researchers
+        and analysts handle large datasets, perform statistical analysis, and
+        generate insights. Examples of popular data processing tools are
+        `Pandas <https://pandas.pydata.org/>`_,
+        `NumPy <https://numpy.org/>`_,
+        `MATLAB <https://www.mathworks.com/products/matlab.html>`_, etc.
+
+    Package Managers
+        Package managers are tools that automate the process of installing,
+        updating, configuring, and managing software packages and
+        dependencies. They simplify the management of libraries and tools
+        needed for development and data analysis. Examples include
+        `pip <https://pypi.org/project/pip/>`_,
+        `conda <https://anaconda.org/anaconda/conda>`_,
+        `npm <https://www.npmjs.com/>`_,
+        `yarn <https://yarnpkg.com/>`_,
+        `apt <https://wiki.debian.org/AptCLI>`_, etc.
