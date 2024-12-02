@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Monday, October 28, 2024
-.. Last updated on: Monday, November 25, 2024
+.. Last updated on: Monday, December 02, 2024
 
 :orphan:
 :og:title: Science Core Heuristics for Open Science Outcomes in Learning
@@ -217,6 +217,7 @@ thematic content regularly and in manageable stages.
     :titlesonly:
 
     _resources/glossary
+    _resources/experimental
 
 .. _water.: https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/
 .. _air quality.: https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/
