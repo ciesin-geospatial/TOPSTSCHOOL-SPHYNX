@@ -3,7 +3,7 @@
 #
 # Author: Akshay Mestry <xa@mes3.dev>
 # Created on: Sunday, October 27 2024
-# Last updated on: Thursday, November 28 2024
+# Last updated on: Monday, December 02 2024
 
 name: deployment
 run-name: Started ${{ github.workflow }} after ${{ github.actor }}'s actions
@@ -51,11 +51,13 @@ jobs:
   build:
     name: build
     needs: lint
+    if: github.event_name == 'push' || github.event_name == 'pull_request_target'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871
         with:
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
           fetch-depth: 1
       - name: Setup
         uses: actions/setup-python@v5
