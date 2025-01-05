@@ -1,6 +1,6 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
 .. Created on: Friday, January 03, 2025
-.. Last updated on: Friday, January 03, 2025
+.. Last updated on: Saturday, January 04, 2025
 
 :og:title: Feedback Panel
 :og:description: Gather constructive criticism and feedbacks.
