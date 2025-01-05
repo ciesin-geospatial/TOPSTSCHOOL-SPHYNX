@@ -1,22 +1,21 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
-.. Created on: Saturday, November 23, 2024
-.. Last updated on: Saturday, November 23, 2024
+.. Created on: Friday, January 03, 2025
+.. Last updated on: Friday, January 03, 2025
 
-:og:title: Events and Talks
-:og:description: ...
+:og:title: Feedback Panel
+:og:description: Gather constructive criticism and feedbacks.
 
-.. _events-talks:
+.. _feedback:
 
 ===============================================================================
-Events and Talks
+Feedback
 ===============================================================================
 
 .. title-hero::
-    :icon: fa-solid fa-screen-users
+    :icon: fa-solid fa-comments
     :summary:
-        ...
-
-.. tags:: topstschool, community, talks
+        Give us your honest feedback and all the constructive criticism for
+        making SCHOOL an amazing Open Science platform.
 
 .. contributors::
     :location: Palisades, NY
@@ -26,3 +25,6 @@ Events and Talks
     - :headshot: https://avatars.githubusercontent.com/u/16084170?s=200&v=4
     - :github: https://github.com/ciesin-geospatial
     - :youtube: https://www.youtube.com/@TOPSTSCHOOL
+
+Don't have a `GitHub`_ account? Contact us `here <mailto:TOPSTSCHOOL@gmail.
+com>`_!

@@ -10,25 +10,6 @@
 .. role:: python(code)
     :language: python3
 
-.. raw:: html
-
-   <script src="https://giscus.app/client.js"
-        data-repo="ciesin-geospatial/TOPSTSCHOOL-SPHINX"
-        data-repo-id="R_kgDONF9JfA"
-        data-category="Thoughts and Feedbacks"
-        data-category-id="DIC_kwDONF9JfM4Cj3LW"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="light"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-    </script>
-
 .. |html-br| replace:: :raw-html:`<br/>`
 .. |html-dash| replace:: :raw-html:`&mdash;`
 .. |html-tab| replace:: :raw-html:`&emsp;`

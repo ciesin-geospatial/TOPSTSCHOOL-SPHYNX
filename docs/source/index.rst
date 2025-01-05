@@ -177,7 +177,7 @@ If so, SCHOOL is the perfect place for you to make an impact. Together, we can
 create a world where knowledge knows no boundaries, and science is accessible
 to all.
 
-:doc:`Learn more <_community/getting-involved>` |chevron-right|
+:doc:`Learn more <_navbar/getting-involved>` |chevron-right|
 
 -------------------------------------------------------------------------------
 Project Timeline
@@ -196,6 +196,16 @@ collaboration, flexibility, and incremental progress, allowing us to deliver
 thematic content regularly and in manageable stages.
 
 .. toctree::
+    :caption: Modules
+    :hidden:
+    :titlesonly:
+
+    _documentation/_modules/_water/index
+    _documentation/_modules/_air-quality/index
+    _documentation/_modules/_disaster/index
+    _documentation/_modules/_climate/index
+
+.. toctree::
     :caption: Tutorials & Guides
     :hidden:
     :titlesonly:
@@ -204,20 +214,31 @@ thematic content regularly and in manageable stages.
     _documentation/_tutorials/_002-contributing/contributing-to-school
 
 .. toctree::
-    :caption: Community
-    :hidden:
-    :titlesonly:
-
-    _community/getting-involved
-    _community/meet-the-team
-
-.. toctree::
     :caption: Resources
     :hidden:
     :titlesonly:
 
     _resources/glossary
-    _resources/experimental
+    _resources/feedback
 
 .. _water.: https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/
 .. _air quality.: https://ciesin-geospatial.github.io/TOPSTSCHOOL-water/
+
+.. raw:: html
+
+    <script src="https://giscus.app/client.js"
+        data-repo="ciesin-geospatial/TOPSTSCHOOL-SPHINX"
+        data-repo-id="R_kgDONF9JfA"
+        data-category="Thoughts and Feedbacks"
+        data-category-id="DIC_kwDONF9JfM4Cj3LW"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+    </script>

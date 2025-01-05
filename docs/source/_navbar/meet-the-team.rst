@@ -289,6 +289,76 @@ and discovery for all.
         Director for IT at `CIESIN`_ and Columbia Climate School
     - ../_assets/team/development/sri_vinay.png
 
+-------------------------------------------------------------------------------
+Alumni
+-------------------------------------------------------------------------------
+
+.. headshots::
+
+    - Denisse Fierro Arcos
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Rosana Aguilera Becker
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Tricia Boucher
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Karen E. Cowen
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Nikolas Fisher
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Iker Gomez
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Jenny Hewson
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Peer Herholz
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - David Lee
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Jorge Lopez
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Robyn Marowitz
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Lara Pistolesi
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Annajiat Alim Rasel
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Luana Sales
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Jonathan Sanchez
+    - Alumni
+    - ../_assets/team/empty.png
+
+    - Xuan Zhou
+    - Alumni
+    - ../_assets/team/empty.png
+
 .. _isciences: https://www.isciences.com/
 .. _applied sciences disasters program: https://appliedsciences.nasa.gov/
     what-we-do/disasters

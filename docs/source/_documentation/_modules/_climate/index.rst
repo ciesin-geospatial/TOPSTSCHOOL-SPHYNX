@@ -1,22 +1,20 @@
 .. Author: Akshay Mestry <xa@mes3.dev>
-.. Created on: Saturday, November 23, 2024
-.. Last updated on: Saturday, November 23, 2024
+.. Created on: Saturday, November 02, 2024
+.. Last updated on: Monday, November 25, 2024
 
-:og:title: TOPSTSCHOOL Announcements
+:og:title: Climate Module Introduction
 :og:description: ...
 
-.. _announcements:
-
 ===============================================================================
-Announcements
+Climate
 ===============================================================================
 
 .. title-hero::
-    :icon: fa-solid fa-megaphone
+    :icon: fa-solid fa-temperature-half
     :summary:
         ...
 
-.. tags:: topstschool, meetings
+.. tags:: climate
 
 .. contributors::
     :location: Palisades, NY
@@ -26,3 +24,8 @@ Announcements
     - :headshot: https://avatars.githubusercontent.com/u/16084170?s=200&v=4
     - :github: https://github.com/ciesin-geospatial
     - :youtube: https://www.youtube.com/@TOPSTSCHOOL
+
+To be updated...
+
+Don't have a `GitHub`_ account? Contact us `here <mailto:TOPSTSCHOOL@gmail.
+com>`_!
