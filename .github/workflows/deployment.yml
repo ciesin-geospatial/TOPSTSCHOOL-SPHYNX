@@ -1,0 +1,93 @@
+# TOPSTSCHOOL Sphinx (Documentation) Deployment Workflow
+# ======================================================
+#
+# Author: Akshay Mestry <xa@mes3.dev>
+# Created on: Sunday, October 27 2024
+# Last updated on: Monday, December 02 2024
+
+name: deployment
+run-name: Started ${{ github.workflow }} after ${{ github.actor }}'s actions
+
+on:
+  workflow_dispatch:
+  pull_request_target:
+    paths:
+      - '.github/**'
+      - 'docs/**'
+      - 'requirements*'
+
+permissions:
+  contents: write
+
+env:
+  ARTIFACTNAME: topstschool-pages
+  BUILDDIR: docs/build/
+  SOURCEDIR: docs/source
+  PYTHONVERSION: 3.12.1
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871
+        with:
+          fetch-depth: 1
+      - name: Setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHONVERSION }}
+      - name: Analyze
+        id: linting
+        run: |
+          python -m pip install -Uq pip -rrequirements-dev.txt
+          echo "Checking code for issues..."
+          flake8 ${{ env.SOURCEDIR }}
+  build:
+    name: build
+    needs: lint
+    if: github.event_name == 'push' || github.event_name == 'pull_request_target'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871
+        with:
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
+          fetch-depth: 1
+      - name: Setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHONVERSION }}
+      - name: Build pages with Sphinx
+        id: build
+        run: |
+          python -m pip install -Uq pip -rrequirements.txt
+          echo "Building documentation pages..."
+          cd docs && make html
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: ${{ env.ARTIFACTNAME }}
+          path: ${{ env.BUILDDIR }}
+  deploy:
+    name: deploy
+    needs: [lint, build]
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: canary
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ env.ARTIFACTNAME }}
