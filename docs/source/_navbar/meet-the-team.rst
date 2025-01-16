@@ -98,11 +98,11 @@ power of knowledge sharing and inclusivity.
 
     - Alber Sánchez
     - Open Science Team
-    - ../_assets/team/open-science/hieu_tran.png
+    - ../_assets/team/open-science/alber_sanchez.png
 
     - Hieu Tran
     - Open Science Team
-    - ../_assets/team/open-science/alber_sanchez.png
+    - ../_assets/team/open-science/hieu_tran.png
 
     - Aneese Williams
     - Open Science Team
